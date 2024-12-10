@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- biblioteca de icones-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <title>FCR HOST</title>
+</head>
+
+
+<body>
+<div class="container">
+    <div class="navbar-container">
+        <!--nav tag semantica para barra de navegação -->
+        <nav>
+            <!--home do site com a logo direcionando-->
+            <a href="#">
+                <img src="./img/fcrhostlogo.png" alt="FCR HOST" class="logo"/>
+                </a>
+
+                <!--barra de navegação-->
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+     <!--main tag semantica para identificar conteúdo princioal da página-->
+     <main>
+        <div class="main-baner">
+            <h1>FCR HOST</h1>
+            <p>Os melhores serviços para diversos projetos de todos os tamanhos </p>
+        </div>
+        <!--seção de seriços-->
+        <section class="services-container">
+            <ul>
+                <li>
+                    <i class="fas fa-shield-alt"></i><!--icone do escudo-->
+                    <h3>Segurança</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil enim. Quaerat, beatae ipsam? Nihil magnam accusamus, repudiandae accusantium quos ea quibusdam culpa magni minus consequuntur sed quam fugiat aperiam.</p>
+                </li>
+                <li>
+                    <i class="fas fa-rocket"></i><!--icone foguete-->
+                    <h3>Performance</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, aspernatur minus rem expedita sunt commodi quos sint alias ipsum deserunt culpa in tenetur provident nulla repellat odio non accusantium voluptatibus.</p>
+                </li>
+                <li>
+                    <i class="fas fa-comments"></i>
+                    <h3>Suporte 24x7</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ut, deleniti reprehenderit minus repellat porro animi, quae facilis illum quod, nihil earum assumenda aspernatur dolores iure incidunt. Dolorem, atque quo!</p>
+                </li>
+            </ul>
+        </section>
+        
+        
+        <!-- seção de planos e preços -->
+        
+        <section class="pricing-container">
+            <h2>Planos e Preços</h2>
+            <p>Selecione o plano que mais se adequa as suas necessidades</p>
+            <div class="plans-container">
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$15,00/mês</li>
+                        <li class="plan-name">Básico</li>
+                        <li >2GB de espaço</li>
+                        <li >1 subdominio</li>
+                        <li >25 contas de e-mail</li>
+                        <li >24/7</li>
+                        <li >c-painel</li>
+                        <li class="plan-btn ">Saiba mais</li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="price recomended">R$35,00/mês</li>
+                        <li class="plan-name">Dedicado</li>
+                        <li >5GB de espaço</li>
+                        <li >2 subdominios</li>
+                        <li >30 contas de e-mail</li>
+                        <li >24/7</li>
+                        <li >c-painel</li>
+                        <li class="plan-btn recomended">Saiba mais</li>
+                    </ul>
+                </div>
+            
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$50,00/mês</li>
+                        <li class="plan-name">Dedicado plus</li>
+                        <li >100GB de espaço</li>
+                        <li >5 subdominios</li>
+                        <li >50 contas de e-mail</li>
+                        <li >24/7</li>
+                        <li >c-painel</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$100,00/mês</li>
+                        <li class="plan-name">Cloud</li>
+                        <li >1TB de espaço</li>
+                        <li >10 subdominios</li>
+                        <li >100 contas de e-mail</li>
+                        <li >24/7</li>
+                        <li >c-painel</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="searchdomain-container">
+        <h2>Escolha um dominio para seu site</h2>
+        <p>Verifique se está disponível</p>
+        <form>
+            <input type="text" name="domain" id="domain" placeholder="Digite o domínio desejado"/>
+            <input type="submit" value="Procurar domínio"/>
+        </form>
+    </section>
+    <!-- Formulario de contato-->
+     <section class="contact-container">
+        <h2>Entre em contato</h2>
+        <p>Envie sua mensagem, em até 4 horas um especialista entrará em contato</p>
+        <form>
+            <input type="text" name="name" id="name" placeholder="Nome completo">
+            <input type="email" name="email" id="email">
+            <textarea name="message" id="mesaage" placeholder="Descreva detalhadamente qual sua dúvida"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+     </section>
+     </main>
+     <hr/>
+     <footer>
+        <p>FCR HOST @2024 copyright todos os direitos reservados <i class="fas fa-copyright"></i></p>
+     </footer>
+</div>
+    
+</body>
+
+
+</html>
