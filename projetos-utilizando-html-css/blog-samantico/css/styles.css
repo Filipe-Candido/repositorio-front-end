@@ -57,4 +57,123 @@ a:hover{
 .post img{
 
     width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description,
+.author{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.author{
+
+    color: #333;
+    font-weight: bold;
+}
+
+
+#sidebar{
+
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categorias,
+#tags{
+
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#categorias h4,
+#tags h4{
+
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+
+}
+
+#search-bar form{
+
+    display: flex;
+}
+
+#search-bar input{
+    padding: 0.5rem 1rem;
+    border: solid 1px #ddd;
+    margin-left: 0.5rem;
+}
+
+#search-bar input[type="submit"]{
+
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color:#37a1f7;
+    color: #ddd;
+
+}
+
+#search-bar input[type="submit"]:hover{
+
+    background-color: #153c5c;
+}
+
+
+#categorias li{
+
+    margin-bottom: 1rem;
+}
+
+#tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#tags-container a{
+
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+
+}
+
+#tags-container a:hover{
+
+    background-color: #646060;
+    color: #ddd;
+}
+
+
+#footer{
+
+    border-top:  2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+#footer p{
+    font-size: 0.8rem;
+}
+
+#footer h2,
+#footer p{
+    margin-bottom: 1rem;
+}
+
+@media (max-width:450px) {
+
+    .container{
+    flex-wrap: wrap;
+   
+   }
+
+
 }
