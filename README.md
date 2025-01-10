@@ -21,9 +21,11 @@ O design foi pensado para ser responsivo, proporcionando uma experiência de usu
 
 - **HTML5**
 - **Javacript**
+- **React-js**
 - **CSS3** (incluindo Flexbox e Grid)
 - **Media Queries** para responsividade
 - **Google Fonts** e ícones (opcionais)
+
 
 ---
 
