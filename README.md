@@ -11,6 +11,7 @@ Este portfólio foi criado para demonstrar minhas habilidades em desenvolvimento
 - **HTML5**: Estrutura semântica e organizada do conteúdo.
 - **CSS3**: Estilização moderna, responsiva e com foco em boas práticas.
 - **Javacript**: Adiciona interatividade e dinamismo ao site, melhorando a experiência do usuário.
+- **React.js**: Biblioteca JavaScript para criar interfaces de usuário reutilizáveis e dinâmicas, focada em componentes e desempenho.
 
 O design foi pensado para ser responsivo, proporcionando uma experiência de usuário consistente em diferentes dispositivos.
 
@@ -20,9 +21,11 @@ O design foi pensado para ser responsivo, proporcionando uma experiência de usu
 
 - **HTML5**
 - **Javacript**
+- **React-js**
 - **CSS3** (incluindo Flexbox e Grid)
 - **Media Queries** para responsividade
 - **Google Fonts** e ícones (opcionais)
+
 
 ---
 
