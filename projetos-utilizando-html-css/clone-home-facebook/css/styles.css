@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(244, 247, 247);
+    background-color: rgb(241, 246, 253);
 }
 
 .container{
@@ -15,22 +15,23 @@ body{
         display: flex;
         padding-top: 5rem;
         height: 500px;
+       
 
 }
 
 #banner img{
-    border: solid 1px blue;
+  
     padding: 7rem 0 auto;
     width: 300px;
-    margin-left: 250px;
+    margin-left: 225px;
     margin-top: 100px;
     
 }
 
-#banner h2{
-    border: solid 1px red;
+#banner p{
+    
     text-align: justify ;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-style:  sans-serif;
     width: 550px;
     margin-left: 250px;
@@ -39,16 +40,26 @@ body{
 #form{
 
     border: solid 1px #dcdcdc;
-    background-color: #fff;
-    margin-left: 80px;
+    background-color: #fafeff;
+    margin-left: 130px;
     margin-top: 60px;
-    width: 380px;
+    width: 400px;
     height: 360px;
     border-radius: 0.5rem;
+    box-shadow: rgb(0 0 0 /10%) 0px 2px 4px, rgb( 0 0 0 /10%) 0px 8px 16px;
+    
+    
 }
+#form p{
 
+    padding-left: 30px;
+    font-size: 1rem;
+
+
+}
 #form-inputs{
     width: 300px;
+    
 
 
 }
@@ -57,52 +68,253 @@ input{
     display: block;
     margin-left: 1rem;
     margin-top: 1rem;
+   
     
 }
+input[type="submit"]{
 
+    width: 370px;
+   
+
+}
 input[type="email"],
 input[type="password"],
 input[type="submit"]{
     border-radius: 0.5rem;
     height: 50px;
     border: solid 1px #dcdcdc;
-
-
+  
+    
+    
 }
 
+input[type="email"],
+input[type="password"]{
+    outline: none;
+    padding-left:15px ;
+    font-size: 1rem;
+    
+}
+
+
+
 #btn-enter{
-    background-color: #1212e9;
+    background-color: #3975e4;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-}
+    cursor: pointer;
 
+}
+#btn-enter:hover{
+
+    background-color: #2962ca;
+
+
+}
 .line{
-    border-top: 2px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
     margin-top: 30px;
     margin-left: 20px;
     width: 350px;
 }
 #btn-new-account{
     width: 170px;
-    background-color: rgb(40, 193, 40);
+    background-color: rgb(69, 179, 69);
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     margin-left: 105px;
     margin-top: 20px;
+    cursor: pointer;
 
 }
+#btn-new-account:hover{
 
+    background-color: #008000;
+}
 #form-inputs p{
-    color: blue;
+    color: rgb(54, 100, 226);
     text-align: center;
     margin-left: 80px;
     margin-top: 15px;
 }
 
-.createpage{
-    border: solid 1px red;
-    margin-left: 850px;
+.createpage {
+    margin-top: 0;
+    margin-left: 950px;
+    font-size: 0.9rem;
+    
 }
 
+.createpage span{
+
+    font-weight: bold;
+
+}
+
+.createpage p{
+    
+    display: inline;
+    text-align: center;
+    margin-right: 500px;
+    
+}
+
+footer{
+    padding-top: 10px;
+    margin-top: 160px;
+    background: #f5fafa;  
+    display: block;
+    height: 186px;
+}
+
+.language,
+.footer-information,
+footer p{
+    
+    margin-left: 400px;
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+.language li {
+    
+    justify-content: space-between;
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    color: #696969;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+}
+
+
+.footer-information li {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 5px;
+    color: #696969;
+    cursor: pointer;
+
+}
+
+footer p{
+    margin-top: 40px;
+    font-size: 0.7rem;
+    color: #696969;
+    cursor: pointer;
+}
+
+.line-footer{
+
+    border-top: 1px solid #dbdbdb;
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 950px;
+
+}
+
+.fa-plus-square{
+
+    color: #696969;
+    padding-left: 10px;
+}
+
+
+
+
+/*mobile*/
+@media (max-width: 756px) {
+            
+            body{
+        height: 1200px;
+
+            }
+            *{
+            padding: 0;
+            margin: 0;
+            
+                }
+            .main-container{
+                width: 100%;
+            
+
+            }
+            .containers{
+                display: flex;
+            }
+
+
+            #banner  img,
+            #banner p{
+                margin-left: 10px;
+                text-align: left;
+                font-size: 1.5rem;
+               
+            }
+            .form{
+                margin-left: 10px;
+            }
+            input[type="email"],
+            input[type="password"]{
+            width: 80%;
+            }
+            .line,
+            input[type="submit"]{
+                width: 85%;
+            }
+            #btn-new-account{
+
+                margin-left: 60px;
+            }
+            #form-inputs p{
+                margin-left: -25px;
+                }
+
+
+            .createpage {
+            margin-left: -100px;
+            padding-left: 780px;
+             }
+
+            .createpage p{
+                margin-left: 10px;
+                text-align: center;
+                font-size: 0.7rem;
+                display: inline-flex;
+                width: 450px;
+            }
+
+
+            footer{
+                    width: 1200px;
+                    height: 150vh;
+                    margin-left: 0s;
+                    padding-left: 0;
+                
+                }
+
+          .language,
+         .footer-information,
+          footer p{
+    
+                    margin-left: 100px;
+                    text-align: justify;
+                    
+
+            }
+
+       .line-footer{
+             
+             margin-left: 100px;
+             width: 950px;
+
+}
+
+
+}
