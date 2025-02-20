@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    background-color: #5b6fb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+.hide{
+    display: none !important;
+}
+
+.container{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #2f3575;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px #000;
+}
+
+/*imc form*/
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}   
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+.form-control input{
+    padding: 1rem.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.action-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+button{
+
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #c90a03;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+    box-shadow: 1px 2px 4px #000;
+
+   
+}
+
+button:hover{
+
+    opacity: 1;
+}
+
+#clear{
+    color:#c90a03;
+}
+
+#calc{
+    
+    border: none;
+    background-color:#8fdf7a ;
+}
+
+
+
+/*table*/
+
+#result-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#imc-number{
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+#imc-info{
+    font-size: 1.4rem;
+    color: #ccc;
+}
+#result-container h3{
+    margin-top: 1rem;
+    color: #fff;
+}
+#imc-table{
+        margin: 1.5rem 0;
+        font-size: 0.8rem;
+}
+.table-header{
+    font-weight: bold;
+    color: #fff;
+}
+.table-data{
+    color: #fff;
+}
+.table-header,
+.table-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.table-header h4,
+.table-data p{
+    flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3){
+        max-width: 80px;
+}
+
+#back-btn{
+    align-self: center;
+    color:#c90a03
+}
+
+
+.good{
+    color: #10dd32;
+}
+
+.low{
+    color: #dbce12;
+}
+.medium{
+    color: #db6212;
+}
+.high{
+    color: #db1912;
+}
